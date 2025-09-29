@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import type { Message, Room, User } from '../../assets/type';
 import ChatRoomNav from '../../components/nav/chatRoomNav';
 import '../../App.css';
+import profile from '../../assets/profile.svg';
 
 const LOCAL_STORAGE_MESSAGES_KEY = 'chat_messages';
 
@@ -91,8 +92,7 @@ const ChatRoom = ({ room, me }: ChatRoomProps) => {
           const showDate = prevDate !== date.toDateString(); // 이전 메시지와 날짜가 다르면 표시
 
           const isMe = msg.sender.id === me.id;
-          const avatar =
-            msg.sender.profileImageUrl || '/src/assets/profile.svg'; // 기본 이미지
+          const avatar = msg.sender.profileImageUrl || profile; // 기본 이미지
 
           return (
             <div>
