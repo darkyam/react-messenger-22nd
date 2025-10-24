@@ -1,8 +1,117 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --color-gr-950: #1d1f25;
+  --color-gr-900: #535760;
+  --color-gr-800: #7a7f8a;
+  --color-gr-700: #878c95;
+  --color-gr-600: #a0a4ad;
+  --color-gr-500: #bcc0c9;
+  --color-gr-400: #c8cbd2;
+  --color-gr-300: #d1d3d9;
+  --color-gr-200: #e2e4e7;
+  --color-gr-100: #ecedf0;
+  --color-gr-50: #f1f1f2;
+  --color-bl-950: #0b1b4a;
+  --color-bl-900: #0f2c68;
+  --color-bl-800: #2953a9;
+  --color-bl-700: #4569b8;
+  --color-bl-600: #6190ec;
+  --color-bl-500: #8ab1f9;
+  --color-bl-400: #a4c4ff;
+  --color-bl-300: #bad2fe;
+  --color-bl-200: #cdddfa;
+  --color-bl-100: #dee6f5;
+  --color-bl-50: #f1f2f3;
+  --color-black: #121212;
+  --color-white: #ffffff;
+  --color-danger: #ff6161;
+  --shadow-1size: 0 1px 4px 0 rgba(0, 0, 0, 0.04);
+  --shadow-2size: 0 1px 8px 0 rgba(0, 0, 0, 0.03);
+}
+@layer utilities {
+  .heading-xlarge-sb {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+  .heading-large-sb {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+  .heading-large-md {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+  .heading-medium-sb {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+  .heading-small-md {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+
+  .body-large-md {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+  .body-small-md {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+  .body-small-rg {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+
+  .caption-medium-sb {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+  .caption-medium-rg {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+  .caption-small-rg {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+  .caption-xsmall-rg {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 1.35;
+    font-family: 'Pretendard';
+  }
+}
 
 body {
   font-family: 'Pretendard';
+  background-color: var(--color-gr-950);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
 }
