@@ -6,7 +6,12 @@ import RecoFriend from '@assets/recommend.svg';
 import { ProfileModal } from '@components/modal/profileModal';
 import { useState } from 'react';
 
-const home = ({ me, friendsList }) => {
+interface HomeProps {
+  me: User;
+  friendsList: User[];
+}
+
+const home = ({ me, friendsList }: HomeProps) => {
   const [selectedUser, setSelectedUser] = useState<User | null>(null);
 
   return (
