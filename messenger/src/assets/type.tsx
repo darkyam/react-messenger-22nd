@@ -19,3 +19,17 @@ export interface Room {
   members: User[];
   messages: Message[];
 }
+
+export interface RawMessage {
+  id: string;
+  senderId: string;
+  text: string;
+  timestamp: number;
+}
+
+export interface RawRoom {
+  id: string;
+  name: string;
+  memberIds: string[];
+  messages: RawMessage[];
+}
