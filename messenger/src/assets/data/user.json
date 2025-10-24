@@ -1,0 +1,63 @@
+[
+  {
+    "id": "me",
+    "name": "나",
+    "bio": "자기소개 적을까말까",
+    "profileImageUrl": "/104px_profile.svg"
+  },
+  {
+    "id": "u1",
+    "name": "김건우",
+    "profileImageUrl": "/104px_profile.svg"
+  },
+  {
+    "id": "u2",
+    "name": "조예원",
+    "profileImageUrl": "/104px_profile.svg"
+  },
+  {
+    "id": "u3",
+    "name": "박서준",
+    "bio": "안녕하세요 반갑습니다!",
+    "profileImageUrl": "/104px_profile.svg"
+  },
+  {
+    "id": "u4",
+    "bio": "안녕하세요 반갑습니다!",
+    "name": "이지은",
+    "profileImageUrl": "/104px_profile.svg"
+  },
+  {
+    "id": "u5",
+    "bio": "안녕하세요 반갑습니다!",
+    "name": "황민현",
+    "profileImageUrl": "/104px_profile.svg"
+  },
+  {
+    "id": "u6",
+    "name": "김태형",
+    "profileImageUrl": "/104px_profile.svg"
+  },
+  {
+    "id": "u7",
+    "name": "전정국",
+    "profileImageUrl": "/104px_profile.svg"
+  },
+  {
+    "id": "u8",
+    "bio": "안녕하세요 반갑습니다!",
+    "name": "민지",
+    "profileImageUrl": "/104px_profile.svg"
+  },
+  {
+    "id": "u9",
+    "bio": "참치김치찌개",
+    "name": "성훈",
+    "profileImageUrl": "/104px_profile.svg"
+  },
+  {
+    "id": "u10",
+    "name": "수빈",
+    "profileImageUrl": "/104px_profile.svg"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "room1",
+    "name": "Offnal v2",
+    "memberIds": ["me", "u1", "u2"],
+    "messages": [
+      {
+        "id": "m1",
+        "senderId": "u1",
+        "text": "안녕?",
+        "timestamp": 1730000000000
+      },
+      {
+        "id": "m2",
+        "senderId": "u2",
+        "text": "오늘 뭐해?",
+        "timestamp": 1730000500000
+      },
+      {
+        "id": "m3",
+        "senderId": "me",
+        "text": "그냥 집에 있어zz",
+        "timestamp": 1730000600000
+      }
+    ]
+  },
+  {
+    "id": "room2",
+    "name": "개발 스터디",
+    "memberIds": ["me", "u1", "u3", "u4"],
+    "messages": [
+      {
+        "id": "m4",
+        "senderId": "u3",
+        "text": "오늘 회의 몇 시부터 할까?",
+        "timestamp": 1730010000000
+      },
+      {
+        "id": "m5",
+        "senderId": "u4",
+        "text": "7시쯤 어때요?",
+        "timestamp": 1730010100000
+      },
+      {
+        "id": "m6",
+        "senderId": "me",
+        "text": "좋아요. 7시에 디스코드에서 봐요!",
+        "timestamp": 1730010200000
+      },
+      {
+        "id": "m7",
+        "senderId": "u1",
+        "text": "확인했습니다 🙌",
+        "timestamp": 1730010300000
+      }
+    ]
+  },
+  {
+    "id": "room3",
+    "name": "홍익대바보",
+    "memberIds": ["me", "u2", "u4"],
+    "messages": [
+      {
+        "id": "m8",
+        "senderId": "u2",
+        "text": "이번 주말에 영화 보러 갈래?",
+        "timestamp": 1730020000000
+      },
+      {
+        "id": "m9",
+        "senderId": "u4",
+        "text": "좋아요! 뭐 볼까요?",
+        "timestamp": 1730020100000
+      },
+      {
+        "id": "m10",
+        "senderId": "me",
+        "text": "콘크리트 유토피아 어때요?",
+        "timestamp": 1730020200000
+      },
+      {
+        "id": "m11",
+        "senderId": "u4",
+        "text": "오 그거 보고 싶었어요!",
+        "timestamp": 1730020300000
+      }
+    ]
+  },
+  {
+    "id": "room4",
+    "name": "안녕",
+    "memberIds": ["me", "u3"],
+    "messages": [
+      {
+        "id": "m12",
+        "senderId": "u3",
+        "text": "오늘 날씨 진짜 좋다 ",
+        "timestamp": 1730030000000
+      },
+      {
+        "id": "m13",
+        "senderId": "me",
+        "text": "맞아요. 점심 때 산책해야겠어요.",
+        "timestamp": 1730030100000
+      },
+      {
+        "id": "m14",
+        "senderId": "u3",
+        "text": "산책 같이 가요 ㅋㅋ",
+        "timestamp": 1730030200000
+      }
+    ]
+  }
+]
