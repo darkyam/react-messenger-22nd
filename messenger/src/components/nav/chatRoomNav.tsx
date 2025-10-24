@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import type { Room } from '../../assets/type';
 
 interface ChatRoomNavProps {
@@ -5,10 +6,17 @@ interface ChatRoomNavProps {
 }
 
 const ChatRoomNav = ({ room }: ChatRoomNavProps) => {
+  const navigate = useNavigate();
+  const onClickBack = () => {
+    navigate('/chat');
+  };
+
   return (
-    <div className="flex items-center justify-between h-[56px]">
+    <div className="flex items-center justify-between h-[56px] w-[375px]">
       {/* 왼쪽: 뒤로가기 버튼 */}
       <button
+        onClick={onClickBack}
+        className="ml-[10px]"
         style={{
           border: 'none',
           background: 'none',
@@ -90,6 +98,7 @@ const ChatRoomNav = ({ room }: ChatRoomNavProps) => {
       </div>
 
       <button
+        className="mr-[10px]"
         style={{
           border: 'none',
           background: 'none',
